@@ -9,6 +9,7 @@ Plug 'prabirshrestha/asyncomplete.vim'              " Autocomplete
 Plug 'prabirshrestha/vim-lsp'                       " LSP Client
 Plug 'scrooloose/nerdtree'                          " Tree explorer
 Plug 'sheerun/vim-polyglot'                         " Language pack
+Plug 'MattesGroeger/vim-bookmarks'
 call plug#end()
 colorscheme gruvbox            " Use gruvbox color scheme
 "set colorcolumn=80             " Display a vertical line at 80 columns
