@@ -72,11 +72,11 @@ call s:bind_keymap(g:floaterm_keymap_show,   'FloatermShow')
 call s:bind_keymap(g:floaterm_keymap_kill,   'FloatermKill')
 call s:bind_keymap(g:floaterm_keymap_toggle, 'FloatermToggle')
 
-"nnoremap   <silent>   <F7>    :FloatermNew<CR>
-"tnoremap   <silent>   <F7>    <C-\><C-n>:FloatermNew<CR>
-"nnoremap   <silent>   <F8>    :FloatermPrev<CR>
-"tnoremap   <silent>   <F8>    <C-\><C-n>:FloatermPrev<CR>
-"nnoremap   <silent>   <F9>    :FloatermNext<CR>
-"tnoremap   <silent>   <F9>    <C-\><C-n>:FloatermNext<CR>
+nnoremap   <leader>tnn    :FloatermNew<CR>
+tnoremap   <leader>tnn    <C-\><C-n>:FloatermNew<CR>
+nnoremap   <leader>tp    :FloatermPrev<CR>
+tnoremap   <leader>tp    <C-\><C-n>:FloatermPrev<CR>
+nnoremap   <leader>tn    :FloatermNext<CR>
+tnoremap   <leader>tn    <C-\><C-n>:FloatermNext<CR>
 nnoremap  <leader>tt   :FloatermToggle<CR>
 tnoremap   <leader>tt   <C-\><C-n>:FloatermToggle<CR>
