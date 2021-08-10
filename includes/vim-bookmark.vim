@@ -1,1 +1,1 @@
-noremap <Leader>cc :cclose<CR> 
+noremap cc :cclose<CR> 
