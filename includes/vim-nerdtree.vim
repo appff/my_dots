@@ -9,4 +9,4 @@ if exists('g:included_nerdtree')
   let NERDTreeShowHidden = 1
 
  nnoremap <silent> <leader>e  :NERDTreeToggle<cr>
- nmap <Leader>r :NERDTreeFocus<cr> \| R \| <c-w><c-p>
+ nnoremap <silent> <leader>r  :NERDTreeRefreshRoot<cr>
