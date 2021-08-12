@@ -11,7 +11,7 @@ Plug 'scrooloose/nerdtree'                          " Tree explorer
 Plug 'sheerun/vim-polyglot'                         " Language pack
 Plug 'MattesGroeger/vim-bookmarks'                  " bookmark
 Plug 'voldikss/vim-floaterm'                        " Float terminal
-Plug 'puremourning/vimspector'                      " Vimspector
+"Plug 'puremourning/vimspector'                      " Vimspector
 call plug#end()
 "colorscheme gruvbox            " Use gruvbox color scheme
 "set colorcolumn=80             " Display a vertical line at 80 columns
